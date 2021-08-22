@@ -92,7 +92,7 @@
 
         <h2 class="text-center">Contact Me</h2>
 
-        <form style="width: 50rem; margin: 0 auto;" action=" {{ route('contactMe')}}" method="POST">
+        <form style="width: 50rem; margin: 0 auto;" action=" {{ url('/contact-me')}}" method="POST">
             @csrf
             <div class="">
                 @if(session('msg'))
